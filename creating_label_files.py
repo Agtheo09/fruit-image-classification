@@ -1,10 +1,10 @@
 import os
 
-# label_file = "./labels/train_labels.csv" # For Training Imgs
-label_file = "./labels/test_labels.csv" # For Testing Imgs
+label_file = "./labels/train_labels.csv" # For Training Imgs
+# label_file = "./labels/test_labels.csv" # For Testing Imgs
 
-# img_dir = "./src/ref_imgs/train_imgs" # For Training Imgs
-img_dir = "./src/ref_imgs/test_imgs" # For Testing Imgs
+img_dir = "./src/ref_imgs/train_imgs" # For Training Imgs
+# img_dir = "./src/ref_imgs/test_imgs" # For Testing Imgs
 
 imgs = os.listdir(img_dir)
 
